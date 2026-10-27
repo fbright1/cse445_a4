@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
 
   <xs:element name="NationalParks">
     <xs:complexType>
@@ -22,7 +24,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="Rating" type="xs:decimal" use="optional" />
+            <xs:attribute name="Rating" type="xs:string" use="optional" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
