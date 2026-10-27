@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Error 1: Root element is NationalPark instead of NationalParks -->
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <!-- Error 5: Two names provided for one park -->
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Name>Secondary Canyon Name</Name>
+    <Phone>928-638-7496</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+
+  <!-- Error 2: Required NearestAirport attribute is missing on Address -->
+  <NationalPark Rating="4.8">
+    <Name>Yellowstone</Name>
+    <Phone>307-344-7381</Phone>
+    <Address>
+      <Number>2</Number>
+      <Street>Officers Row</Street>
+      <City>Yellowstone National Park</City>
+      <State>WY</State>
+      <Zip>82190</Zip>
+    </Address>
+  </NationalPark>
+
+  <!-- Error 3: Phone element is missing completely -->
+  <NationalPark>
+    <Name>Yosemite</Name>
+    <Address NearestAirport="Fresno">
+      <Number>9039</Number>
+      <Street>Village Drive</Street>
+      <City>Yosemite National Park</City>
+      <State>CA</State>
+      <Zip>95389</Zip>
+    </Address>
+  </NationalPark>
+
+  <!-- Error 4: Address element has no closing tag (causes XML exception) -->
+  <NationalPark Rating="4.8">
+    <Name>Zion</Name>
+    <Phone>435-772-3256</Phone>
+    <Address NearestAirport="St. George">
+      <Number>1</Number>
+      <Street>Zion Park Blvd</Street>
+      <City>Springdale</City>
+      <State>UT</State>
+      <Zip>84767</Zip>
+    <!-- </Address> omitted intentionally -->
+  </NationalPark>
+
+</NationalPark>
