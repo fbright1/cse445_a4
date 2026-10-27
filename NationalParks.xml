@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+<NationalParks>
+  <!-- Grand Canyon Example from Figure 1 -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -15,6 +15,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 2 -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -28,6 +29,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 3: No Rating, Single Phone -->
   <NationalPark>
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -40,6 +42,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 4 -->
   <NationalPark Rating="4.8">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -53,6 +56,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 5: No Rating, Single Phone -->
   <NationalPark>
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
@@ -65,6 +69,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 6 -->
   <NationalPark Rating="4.7">
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -77,6 +82,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 7 -->
   <NationalPark Rating="4.9">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
@@ -90,6 +96,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 8: No Rating -->
   <NationalPark>
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
@@ -102,6 +109,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 9 -->
   <NationalPark Rating="4.8">
     <Name>Grand Teton</Name>
     <Phone>307-739-3300</Phone>
@@ -114,6 +122,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 10 -->
   <NationalPark Rating="4.7">
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
@@ -127,6 +136,7 @@
     </Address>
   </NationalPark>
 
+  <!-- Park 11: No Rating, Single Phone -->
   <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
